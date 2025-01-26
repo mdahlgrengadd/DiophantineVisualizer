@@ -1,0 +1,11 @@
+# Core dependencies
+streamlit>=1.32.0    # For creating the web application interface
+numpy>=1.24.0        # For numerical computations and array operations
+plotly>=5.18.0       # For interactive plotting capabilities
+
+# Additional dependencies that might be automatically installed
+typing-extensions>=4.5.0  # For type hinting support
+packaging>=23.0          # Required by streamlit
+click>=8.0.0            # Required by streamlit
+protobuf>=4.25.0        # Required by streamlit
+pandas>=2.0.0           # Required by streamlit for data handling
