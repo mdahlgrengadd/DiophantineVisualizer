@@ -198,9 +198,9 @@ def main():
         # Input parameters in the left column
         with left_col:
             st.subheader("Parameters")
-            a = st.slider("Select a", -100, 100, 2, 1)
-            b = st.slider("Select b", -100, 100, 3, 1)
-            c = st.number_input("Enter c", value=6, step=1)
+            a = st.slider("Select a", -100, 100, 17, 1)
+            b = st.slider("Select b", -100, 100, 71, 1)
+            c = st.number_input("Enter c", value=5000, step=1)
             max_solutions = st.slider("Maximum solutions to display", 5, 50, 20)
             t_range = find_min_t_range(a, b, c)
         
