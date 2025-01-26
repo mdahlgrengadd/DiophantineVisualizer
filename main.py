@@ -161,8 +161,8 @@ def create_plot(a: int, b: int, c: int, solutions: List[Tuple[int, int, int]]):
     # Update layout with quadrant labels
     fig.update_layout(
         title=f'Diophantine Equation: {a}x + {b}y = {c}',
-        xaxis_title='<-- x-axis -->',
-        yaxis_title='<-- y-axis -->',
+        xaxis_title='<== x-axis ==>',
+        yaxis_title='<== y-axis ==>',
         xaxis=dict(
             range=[-window_size, window_size],
             showgrid=True,
